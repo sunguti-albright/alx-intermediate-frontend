@@ -1,0 +1,16 @@
+
+// Define a mixin that takes one parameter for the margin size
+@mixin set-margins($size) {
+    margin-left: $size;
+    margin-right: $size;
+  }
+  
+  // Use the mixin for each selector with different values
+  body {
+    @include set-margins(10px);
+  }
+  
+  div {
+    @include set-margins(15px);
+  }
+  
