@@ -1,9 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="A blog post about semantic HTML and accessibility practises">
     <meta name="keywords" content="HTML,Semantic, Blog,SEO">
     <meta name="author" content="Albright Sunguti">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/styles.css" rel="stylesheet">
     <title>Semantic Html Blog Post</title>
 </head>
 
@@ -17,6 +21,9 @@
             </ul>
         </nav>
         <h1>My Blog</h1>
+         <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
     </header>
     <main>
         <article>
@@ -66,7 +73,7 @@
             <form action"#" method="POST" aria-labelledby="form-title" role="form">
                 <div>
                     <label for="name">Name</label>
-                    <input type="text" id=""name" name="name" aria-required="true">
+                    <input type="text" id="" name" name="name" aria-required="true">
                 </div>
                 <div>
                     <button type="submit" aria-label="Submit the form">Submit</button>
@@ -81,3 +88,5 @@
         </footer>
     </main>
 </body>
+
+</html>
